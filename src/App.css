@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.contentBlock {
+  height: 125px;
+  background-color: #e4dfda;
+  border-radius: 1vw;
+  margin: 2vw;
+  border: 2px solid #d4b483;
+  text-align: center;
+}
+
+.contentHeading {
+  color: #c1666b;
+  font-weight: 800;
+  padding-top: 1vw;
+}
+
+#modalImage {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.roundInput {
+  outline: "none";
+  border-radius: "10px";
+  padding: "0px 10px";
+}
+
+#link-tag > p:hover {
+  background: #c1666b;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#link-tag > p {
+  padding: 1vw 5vw;
+  transition-timing-function: ease-in;
+  transition-duration: 0.3s;
+}
+
+.keyword {
+  background: #e4dfda;
+  cursor: pointer;
+  border: 1px solid #c1666b;
+  padding: 3px 5px;
+  margin: 5px 0px;
+  border-radius: 5px;
+}
+
+.keyword:hover {
+  background: #c1666b;
+  color: white;
+  cursor: pointer;
+}
+
+.searchForm {
+  float: right;
+}
+.navInput {
+  border-radius: 4px 0px 0px 4px;
+  font-size: 16px;
+  margin-top: 7px;
+  border: none;
+  background-image: url("https://www.w3schools.com/howto/searchicon.png");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 6px 6px 6px 40px;
+  outline: none;
+}
+.navOutput {
+  border-radius: 0px 4px 4px 0px;
+  font-size: 16px;
+  padding: 6px 20px 6px 20px;
+  margin-top: 7px;
+  border: none;
+  outline: none;
+}

@@ -1,0 +1,48 @@
+{
+  "name": "newsfeed",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://ad08star.github.io/newsfeeds/",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "billboard.js": "^1.7.1",
+    "gh-pages": "^2.0.1",
+    "rc-progress": "^2.3.0",
+    "react": "^16.8.4",
+    "react-bootstrap": "^0.32.4",
+    "react-device-detect": "^1.6.2",
+    "react-dom": "^16.8.4",
+    "react-html-id": "^0.1.5",
+    "react-js-pagination": "^3.0.2",
+    "react-redux": "^6.0.1",
+    "react-router-bootstrap": "^0.24.4",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.5",
+    "react-spinner-material": "^1.0.19",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "set PORT=3006 && react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
