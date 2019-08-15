@@ -1,8 +1,8 @@
 {
-  "name": "newsfeed",
+  "name": "hubsearch",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ad08star.github.io/newsfeeds/",
+  "homepage": "https://manassuri7npm.github.io/hubsearch/",
   "dependencies": {
     "axios": "^0.18.0",
     "billboard.js": "^1.7.1",
