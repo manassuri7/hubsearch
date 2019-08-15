@@ -2,7 +2,7 @@
   "name": "hubsearch",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://manassuri7npm.github.io/hubsearch/",
+  "homepage": "https://manassuri7.github.io/hubsearch/",
   "dependencies": {
     "axios": "^0.18.0",
     "billboard.js": "^1.7.1",

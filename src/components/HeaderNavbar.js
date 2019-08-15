@@ -36,7 +36,7 @@ export default class HeaderNavbar extends Component {
               <a
                 className="navbar-brand"
                 style={{ color: "#e4dfda", fontWeight: "bold" }}
-                href="/newsfeeds"
+                href="/hubsearch"
                 // uncomment below code for local testing
                 // onClick={() => {
                 //   window.location.reload();
